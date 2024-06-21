@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <h1>Foods<span>.</span></h1>
+    <div class="menu-buttons">
+      <a href="#mainDishes">Main Dishes</a>
+      <a href="#vegetables">Vegetables</a>
+      <a href="#desserts">Desserts</a>
+      <a href="#drinks">Drinks</a>
+      <a href="#addOns">Add Ons</a>
+    </div>
+    <div class="order">
+      <a href="#cart">Total</a>
+    </div>
+  </header>
+
+<div class="content">
+  <section id="mainDishes">
+    <h2>Main Dishes</h2>
+    <div class="food-list"> 
+      <div class="food-item">
+        <img src="food/m1.jpg" alt="sisig">
+        <p>Sisig:<p>
+        <div class="price">P200</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+        
+      </div>
+      <div class="food-item">
+        <img src="food/m2.jpg" alt="fried chicken">
+        <p>Fried Chicken:</p>
+        <div class="price">P300</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+      <div class="food-item">
+        <img src="food/m3.jpg" alt="pork chop">
+        <p>Pork Chop:</p>
+        <div class="price">P350</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+      <div class="food-item">
+        <img src="food/m4.jpg" alt="beef tapa">
+        <p>Beef Tapa:</p>
+        <div class="price">P350</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+      <div class="food-item">
+        <img src="food/m5.jpg" alt="butter garlic shrimp">
+        <p>Butter Garlic Shrimp:</p>
+        <div class="price">P400</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="vegetables">
+    <h2>Vegetables</h2>
+    <div class="food-list">
+      <div class="food-item">
+        <img src="food/v1.jpg" alt="ranch potato">
+        <p>Ranch Potato:</p>
+        <div class="price">P300</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+      <div class="food-item">
+        <img src="food/v2.jpg" alt="butternut squash blossom">
+        <p>Butternut Squash Blossom:</p>
+        <div class="price">P250</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+      <div class="food-item">
+        <img src="food/v3.jpg" alt="broccoli salad">
+        <p>Broccoli Salad:</p>
+        <div class="price">P400</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="desserts">
+    <h2>Desserts</h2>
+    <div class="food-list">
+      <div class="food-item">
+        <img src="food/d1.jpg" alt="ice cream">
+        <p>Ice Cream:</p>
+        <div class="price">P100</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+      <div class="food-item">
+        <img src="food/d2.jpg" alt="leche plan">
+        <p>Leche Flan:</p>
+        <div class="price">P200</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+      <div class="food-item">
+        <img src="food/d3.jpg" alt="halo halo">
+        <p>Halo halo:</p>
+        <div class="price">P150</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="drinks">
+    <h2>Drinks</h2>
+    <div class="food-list">
+      <div class="food-item">
+        <img src="food/dr1.jpg" alt="ice tea">
+        <p>Ice Tea:</p>
+        <div class="price">P60</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+      <div class="food-item">
+        <img src="food/dr2.jpg" alt="coke">
+        <p>Coke:</p>
+        <div class="price">P50</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+      <div class="food-item">
+        <img src="food/dr3.jpg" alt="ice coffee">
+        <p>Ice Coffee:</p>
+        <div class="price">P80</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="addOns">
+    <h2>Add Ons</h2>
+    <div class="food-list">
+      <div class="food-item">
+        <img src="food/a1.jpg" alt="chicken clear soup">
+        <p>Chicken Clear Soup:</p>
+        <div class="price">P20</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+      <div class="food-item">
+        <img src="food/a2.jpg" alt="sweet corn soup">
+        <p>Sweet Corn Soup:</p>
+        <div class="price">P30</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+      <div class="food-item">
+        <img src="food/a3.jpg" alt="mushroom soup">
+        <p>Mushroom Soup:</p>
+        <div class="price">P40</div>
+        <div class="quantity">
+          <span class="minus" onclick="decreaseQuantity(this)">-</span>
+          <span class="quantity-value">0</span>
+          <span class="add" onclick="increaseQuantity(this)">+</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr><hr>
+
+  <section id="cart" class="carts">
+    <h2 style="color: black;">PAYMENT</h2>
+    <div id="cart-items"></div><br>
+    <div id="total-amount">Total: P0.00</div><br>
+    <label for="discount-type">Select Discount:</label>
+    <select id="discount-type">
+      <option value="none">None</option>
+      <option value="pwd">PWD</option>
+      <option value="senior">Senior Citizen</option>
+      <option value="student">Student</option>
+    </select><br><br>
+    <input type="number" id="payment-amount" placeholder="Enter Payment" min="0" step="1">
+    <button id="calculate-change-button">Change</button><br><br>
+    <div id="change">Change: P0.00</div>
+  </section>
+</div>
+<script src="js.js"></script>
+</body>
+</html>

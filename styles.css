@@ -1,0 +1,81 @@
+
+body {
+    background-color: rgb(142, 190, 232);
+    color: #343a40; 
+}
+
+.jumbotron {
+    background-color: #e9ecef; 
+    padding: 2rem 1rem; 
+    border-radius: 0.3rem; 
+}
+
+h1.display-4 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.img-fluid {
+    width: 150px;
+    height: 150px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+.button-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.button-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 340px; 
+    width: 250px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: auto; 
+}
+
+
+.button-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.button-container img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px; 
+    object-fit: cover; 
+}
+
+
+.button-container p {
+    margin: 0;
+    padding: 0;
+    flex-grow: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

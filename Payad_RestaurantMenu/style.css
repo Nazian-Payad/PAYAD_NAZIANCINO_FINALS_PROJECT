@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('food/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url('food/background.jpg');
+    border-bottom: 10px solid #ad6f28;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+  }
+
+  header h1{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+  }
+
+  header h1 span {
+    color: #ad6f28;
+    font-size: 30px;
+  }
+
+  header .menu-buttons a {
+    padding: 10px 20px ;
+    margin: 5px;
+    background-color: #dfaa47;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  header .menu-buttons a:hover {
+    background-color: #f2dc92;
+  }
+
+  header .order a{
+    padding: 10px 20px;
+    margin-right: 40px;
+    background-color: red;
+    border: none;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  header .order a:hover{
+    background-color: green;
+  }
+
+  .content {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .content h2 {
+    color: #fff;
+    font-size: 40px;
+    padding-top: 10%;
+  }
+
+  .food-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .food-list .food-item{
+    background-color: #dfaa47; 
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .food-list .food-item img {
+    width: 280px; 
+    height: 280px; 
+  }
+
+  .food-list .food-item .price{
+    letter-spacing: 7px;
+    font-size: 25px;
+    color: red;
+    padding-bottom: 10px;
+    font-weight: bolder;
+  }
+
+  .food-item p {
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+    background-color: #ad6f28;
+    border-radius: 30px;
+  }
+
+  .food-list .food-item .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .food-list .food-item .quantity span:hover{
+    background-color: grey;
+  }
+
+  .content .carts {
+    margin: auto;
+    padding-bottom: 50px;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    align-items: center;
+  }

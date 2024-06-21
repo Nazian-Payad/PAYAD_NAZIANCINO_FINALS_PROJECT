@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 1px 1px 5px 5px grey;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.tagaytay .cct {
+    max-width: 10px;
+    height: auto;
+}
+
+.text {
+    color: maroon;
+    line-height: 1;
+    font-size: 12px;
+}
+
+h3 {
+	color: black;
+}
+
+caption {
+	color: #fff;
+	background-color: maroon;
+    padding-top: 3px; 
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid maroon;
+    line-height: 1.5;
+}
+
+
+th {
+    padding-left: 5px;
+    color: maroon;
+    line-height: 1.5;
+    border: 1px solid maroon;
+}
+
+td {
+    padding-left: 10px;
+}
+
+p {
+    margin: 1px;
+    color: maroon;
+}
